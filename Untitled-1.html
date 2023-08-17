@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(232, 224, 224);
+        }
+        
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-flex;
+            margin-right: 20px;
+            font-size: xx-large;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            color: #fff;
+            padding: 0;
+        }
+        a {
+            color: #a3a1e2;
+            padding: 30px;
+        }
+
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: #f8f4f4;
+            width: 80%;
+            font-size: 50px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            transition: .5s ease;
+            opacity: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            color: #080507b4;
+            font-size: x-large;
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .line {
+            width: 80%;
+            border: 6px solid rgb(253, 253, 253);
+            margin: 12px auto;
+        }
+
+        .project-details {
+            flex: 1;
+            padding-left: 200px; 
+            text-align: justify;
+            font-size: 15px;
+            color: rgb(170, 179, 186);
+        }
+
+        .project-box {
+            border: 2px solid #181717;
+            padding: 10px;
+            margin: 10px;
+            background-color: #282222;
+           
+        }
+        .project-title {
+            font-size: 80px;
+            color: rgb(123, 213, 202);
+        }
+
+        .image-grid-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(11, 10, 10, 0.1);
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-gap: 10px;
+            align-items: center; 
+        }
+
+        .image-grid img {
+            
+            align-items: center;
+        }
+        .video-grid-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-gap: 10px; 
+            align-items: center; 
+        }
+
+        .video-grid video {
+            width: 100%;
+            height: auto;
+        }
+
+    </style>
+    <title>MY WEBSITE</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="About">About</a></li>
+                <li><a href="Work">Work</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="C:\Users\91905\Downloads\shutterstock_383845477.jpg" width="4000" height="1000" alt="Deakin">
+        <div class="overlay">Hey, I am Tanmaya</div>
+        <hr class="line">
+    </div>
+
+    <div class="profile">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-05-31 at 4.31.39 PM (1).jpeg"width="1000" height="1000" alt="My Image">
+        <p><h1>Greetings, I'm Tanmaya Bhardwaj.I am a full-time student at Chitkara University.</h1></p>
+        
+        <hr class="line">
+        <h1> HERE'S WHAT I HAVE DONE SO FAR</h1>
+    </div>
+    
+
+    <div class="Project-1 project-box">
+    <div class="project-details">
+            
+            
+               <pre><h2 class="project-title">                          Project-1           </h2></pre>
+                <pre>
+                                                                                                      <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.09.25 PM.jpeg" width="1000" height="600"  alt="Project 1">
+                <h1>
+                                                I participated in the Sense-Think Act Exhibition organized by the 
+                                                Centre of Global Education, CUIET with my team of three. We made 
+                                                universities which included indoor parking for teachers with 
+                                                proper automated ventilation system and outdoor parking for the 
+                                                system for the students. By implementing occupancy detection, RFID 
+                                                integration, and temperature control, the intelligent car parking 
+                                                system aimed to enhance parking efficiency, improve security, and
+                                                provide a comfortable parking environment for both vehicles and 
+                                                individuals.
+
+                                              <a href="https://drive.google.com/drive/folders/1xv_yEPvC793rxqImiW_qL3Dzl7aLtb4-?usp=sharing" target="_self">Click here for Project 1 Link</a>
+           
+                    </h1>
+               </pre>
+             </div>
+        </div>
+    </div>
+
+    <div class="Project-2 project-box">
+    <div class="project-details">  
+            
+            
+                <pre><h2 class="project-title">                         Project-2                            </h2></pre>
+                
+                <pre>
+                                                                                                        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.16.08 PM.jpeg" width="1000" height="600" alt="Project 2">
+                <h1>
+                                                    Our course team organized a robotic exhibition in we I with my 
+                                                    team made an ARDUINO-BASED LIBRARY BOOK SORTING ROBOT Utilizing 
+                                                    was used for book recognition and QR code scanning.
+                                                    Pathfinding algorithm (A*) for optimal navigation was also used.
+                                                    The Arduino-Based Library Book Sorting Robot offered an efficient 
+                                                    management. By reducing manual effort and time spent on these tasks, 
+                                                    organizations, schools, and libraries can focus on providing better
+                                                    services to their users.
+
+                                                  <a href="https://drive.google.com/drive/folders/1ip7I-6op8UoQTcoeTNpWM7pAVpAIVGb5?usp=drive_link" target="_self">Click here for Project 2 link</a>
+            
+                    </h1>    
+               </pre>
+            </div>
+        </div>
+    </div>
+
+    <div class="Project-3 project-box">
+    <div class="project-details">   
+           
+            
+                <pre><h2 class="project-title">                           Project-3                            </h2></pre> 
+                <pre>
+                                                                                                            <img src="C:\Users\91905\Desktop\GitHub-Simbolo.png" width="1000" height="600" alt="Project 3">
+                    <h1>
+                                                    GitHub Repositories: These are dedicated spaces on GitHub where you can 
+                                                    store and manage your projects. Each repository can include code files, 
+                                                    documentation, images, and other resources related to a specific project.
+                                                    I have created created GitHub repositories containing code for 
+                                                    robotics-related projects, specifically focusing on a live moving car, 
+                                                    a robot capable of following lines, and other projects related to robotics.
+                                                    The links to these repositories have been provided, allowing others to 
+                                                    access and explore the code and project details.
+
+                                                  <a href="https://github.com/tanmaya124"  target="_parent">Click here for Project 3 link</a>
+                    </h1>
+                </pre>    
+            </div>
+        </div>
+    </div>
+    <hr class="line">
+
+    <pre>
+        <pre><h2 class="project-title">             -----------------MY PHOTOS------------------                         </h2></pre>                                             
+    </pre>
+    <div class="image-grid-container">
+    <div class="image-grid">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.16.08 PM (1).jpeg"  width="550" height="500" alt="Picture 1">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.09.05 PM (2).jpeg"  width="550" height="500" alt="Picture 2">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.09.05 PM (3).jpeg"  width="550" height="500" alt="Picture 3">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.09.05 PM (4).jpeg"  width="550" height="500" alt="Picture 4">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.16.08 PM (2).jpeg"  width="550" height="500" alt="Picture 5">
+        <img src="C:\Users\91905\Downloads\WhatsApp Image 2023-08-03 at 3.09.25 PM (1).jpeg" width="550" height="500" alt="Picture 5">
+    </div>
+    </div>
+
+    <div class="video-grid-container">
+        <div class="video-grid">
+            <video controls>
+                <source src="C:\Users\91905\Downloads\WhatsApp Video 2023-08-03 at 3.16.09 PM.mp4" width="250" height="250" type="video/mp4">
+            </video>
+
+            <video controls>
+                <source src="C:\Users\91905\Downloads\WhatsApp Video 2023-08-03 at 3.16.10 PM.mp4" width="250" height="250" type="video/mp4">
+            </video>
+
+            <video controls>
+                <source src="C:\Users\91905\Downloads\WhatsApp Video 2023-08-04 at 4.38.14 PM.mp4" width="250" height="250" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    
+</body>
+
+</html>
